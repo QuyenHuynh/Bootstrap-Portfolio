@@ -1,0 +1,96 @@
+
+nav {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 45px;
+    height: 85px;
+    width: 100%;
+}
+
+.navbar-brand {
+    background-color: cadetblue;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white !important;
+    height: 85px;
+    width: 20%;
+    position: relative;
+    left: 12%;
+}
+
+.navbar-brand .brand-text {
+    position: relative;
+    top: 20px;
+}
+
+.navbar-nav {
+    position: relative;
+    left: 64%;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.verticalDivider {
+    border-left: 1px solid rgba(226, 225, 225, 0.952);
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*reduced the width dimension to 940px, because padding adds an extra 20px*/
+#container {
+    width: 940px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #dddddd;
+}
+
+body {
+    background-image: url('../images/white-waves.png');
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+#line {
+    border-top: 2px solid #eee;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-top: 8px solid cadetblue;
+    background-color: #666666;
+    padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1110px) {
+    .navbar-brand {
+        position: relative;
+        left: -16px;
+        width: 220px;
+    }
+}
+
+/*Trying to keep header from jumping. Not working.*/
+@media screen and (max-width: 602px) {
+    .navbar-brand {
+        position: relative;
+        bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 589px) {
+    .navbar-brand {
+        position: relative;
+        bottom: 8px;
+    }
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Link Bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+    <!--Link External Style Sheet-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-white">
+        <div class="navbar-brand">
+            <div class="brand-text">
+                <h2>Quyen Huynh</h2>
+            </div>
+        </div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Container div start-->
+    <div id="container" class="col-11">
+        <div id="portfolio">
+            <h2>Portfolio</h2>
+        </div>
+        <!--create line without using hr tag-->
+        <div id="line">
+        </div>
+        <br>
+
+        <!--Responsive Images-->
+
+        <div class="imgcontainer">
+            <div class="row">
+                <div class="col-md-6">
+                <img src="assets/images/placeholdercat.jpg" class="img-fluid" alt="Responsive image"></img>
+                <h5 id="hangman">Hangman</h5>
+                </div>
+                <div class="col-md-6">
+                <img src="assets/images/placeholderorchid.jpg" id="orchid" class="img-fluid" alt="Responsive image"></img>
+                <h5 id="rpg">RPG Game</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                <img src="assets/images/placeholderrunway.jpg" class="img-fluid" alt="Responsive image"></img>
+                <h5 id="trivia">Trivia Game</h5>
+                </div>
+                <div class="col-md-6">
+                <img src="assets/images/placeholdersport.jpg" id="sport" class="img-fluid" alt="Responsive image"></img>
+                <h5 id="widget">Rutgers Info Widget</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                <img src="assets/images/placeholderipad.jpg" class="img-fluid" alt="Responsive image"></img>
+                <h5 id="rps">Rock Paper Scissors</h5>
+                </div>
+            </div>
+
+    </div>
+    <!--End container div-->
+</body>
+
+<br>
+<br>
+<br>
+
+<footer>
+    <div class="footer">
+        <div id="fteal">
+        </div>
+        <div id="fgray">
+            <font size="1">Copyright &copy;</font>
+        </div>
+    </div>
+</footer>
+
+<style>
+    #portfolio {
+        position: relative;
+        top: 0px;
+        color: cadetblue;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+    img {
+        text-align: left;
+        padding: 10px;
+        z-index: 1;
+        width: 425px;
+        height: 300px;
+    }
+
+    h5 {
+        color: white;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        background-color: cadetblue;
+        padding: 10px 33px 10px 32px;
+        text-align: center;
+        width: 405px;
+        font-weight: normal;
+        z-index: 0;
+    }
+
+    #hangman {
+        position: relative;
+        bottom: 100px;
+        margin-left: 10px;
+    }
+
+    #rpg {
+        position: relative;
+        bottom: 100px;
+        margin-left: 10px;
+    }
+
+    #trivia {
+        position: relative;
+        bottom: 100px;
+        margin-left: 10px;
+    }
+
+    #widget {
+        position: relative;
+        bottom: 100px;
+        margin-left: 10px;
+    }
+
+    #rps {
+        position: relative;
+        bottom: 100px;
+        margin-left: 10px;
+    }
+</style>
+
+</html>

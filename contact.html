@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Link Bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+    <!--Link External Style Sheet-->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-white">
+        <div class="navbar-brand">
+            <div class="brand-text">
+                <h2>Quyen Huynh</h2>
+            </div>
+        </div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Container div start-->
+    <div id="container" class="col-11">
+
+        <div id="contact">
+            <h2>Contact</h2>
+        </div>
+
+        <!--create line without using hr tag-->
+        <div id="line">
+        </div>
+
+        <div id="textforms">
+            <br>
+            <label for="name">Name</label>
+            <br>
+            <input type="text" Name="name" id="name" />
+            <br>
+
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="text" Name="email" id="email" />
+            <br>
+
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message" maxlength="200" id="message">
+            </textarea>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="submit">
+            <font size="3">Submit</font>
+        </div>
+
+    </div>
+    <!--End container div-->
+</body>
+
+
+<footer>
+    <div class="footer">
+        <div id="fteal">
+        </div>
+        <div id="fgray">
+            <font size="1">Copyright &copy;</font>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<style>
+    #contact {
+        position: relative;
+        top: 0px;
+        color: cadetblue;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+    #textforms {
+        color: #777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+    #name {
+        width: 100%;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    #message {
+        width: 100%;
+        height: 150px;
+    }
+
+    #submit {
+        background-color: cadetblue;
+        padding: 8px 20px 8px 20px;
+        text-align: center;
+        text-decoration: none;
+        float: left;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: white;
+        position: relative;
+        bottom: 70px;
+        border-right: 1px solid rgba(95, 158, 160, 0.788);
+        border-bottom: 1px solid rgba(95, 158, 160, 0.788);
+    }
+</style>
+
+</html>

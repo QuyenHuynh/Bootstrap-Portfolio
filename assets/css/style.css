@@ -80,7 +80,6 @@ body {
     }
 }
 
-/*Trying to keep header from jumping. Not working.*/
 @media screen and (max-width: 602px) {
     .navbar-brand {
         position: relative;
